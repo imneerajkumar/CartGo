@@ -1,0 +1,184 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h3{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+/* Home */
+
+#Home{
+  padding: 3% 10% 7%;
+  background-image: url("images/background.jpg");
+}
+
+.title{
+  text-align: center;
+  padding: 0 3%;
+}
+
+.title-img{
+  width: 80%;
+}
+
+.sign-button{
+  margin: 25px 15px;
+}
+
+/* NavigationBar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Anton', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 60px;
+}
+
+.nav-link{
+  font-weight: 500;
+  margin: 0 30px;
+}
+
+/* Features */
+
+#Features .container-fluid{
+  padding: 5% 10%;
+}
+
+.features-cards{
+  text-align: center;
+  margin: 0 20px;
+}
+
+.sub-feature{
+  margin: 24px 24px;
+  width: 18rem;
+  border-radius: 10%;
+  border-width: 10px;
+  border-color: #a4ebf3;
+}
+
+.card-img{
+  width: 70%;
+  margin: 30px;
+}
+
+.card-text{
+  font-weight: 300;
+  color: #5b5b5b;
+  text-align: left;
+}
+
+/* Offers */
+
+#Offers .container-fluid{
+  background-color: #a4ebf3;
+}
+
+.carousel-inner{
+  padding: 2% 10% 5%;
+}
+
+.carousel-item{
+  padding: 3%;
+}
+
+.offer-text{
+  padding-top: 40px;
+  text-align: center;
+}
+
+.offer-img{
+  width: 10%;
+  float: left;
+  margin: 0 3%;
+}
+
+/* Reviews */
+
+#Reviews .container-fluid{
+  padding: 5% 10%;
+}
+
+.Review-card{
+  border-width: 10px;
+  border-color: #a4ebf3;
+  width: 50rem;
+  display: inline-block;
+}
+
+.card-header{
+  text-align: center;
+  background-color: #a4ebf3;
+}
+
+.list-group{
+  height: 120px;
+  overflow-y: scroll;
+}
+
+.customer-img{
+  display: inline;
+  margin-left: 20px;
+}
+
+@media (max-width:1024px) {
+  .Review-card{
+    width: 24rem;
+  }
+}
+
+/* Downloads */
+
+#Downloads .container-fluid{
+  background-image: url("images/background.jpg");
+  padding: 5% 10%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image1{
+  display: inline-block;
+  padding: 5% 5%;
+  width: 50%;
+  border-radius: 15%;
+  transform: rotate(-20deg);
+}
+
+.title-image2{
+  display: inline-block;
+  width: 30%;
+  margin-top: 150px;
+}
+
+/* Footer */
+
+#Socials{
+  text-align: center;
+  margin-top: 30px;
+  padding: 5% 10% 3%;
+}
+
+.footer-icon{
+  margin: 20px 10px 0;
+}
