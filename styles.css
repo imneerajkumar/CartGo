@@ -129,6 +129,12 @@ h3{
   display: inline-block;
 }
 
+@media (max-width:1024px) {
+  .Review-card{
+    width: 25rem;
+  }
+}
+
 .card-header{
   text-align: center;
   background-color: #a4ebf3;
