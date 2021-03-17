@@ -60,7 +60,7 @@ h3{
 /* Features */
 
 #Features .container-fluid{
-  padding: 5% 10%;
+  padding: 5% 20%;
 }
 
 .features-cards{
@@ -69,7 +69,7 @@ h3{
 }
 
 .sub-feature{
-  margin: 24px 24px;
+  margin: 24px 40px;
   width: 18rem;
   border-radius: 10%;
   border-width: 10px;
@@ -125,14 +125,7 @@ h3{
 .Review-card{
   border-width: 10px;
   border-color: #a4ebf3;
-  width: 50rem;
   display: inline-block;
-}
-
-@media (max-width:1024px) {
-  .Review-card{
-    width: 25rem;
-  }
 }
 
 .card-header{
