@@ -60,16 +60,15 @@ h3{
 /* Features */
 
 #Features .container-fluid{
-  padding: 5% 20%;
+  padding: 5% 5%;
 }
 
 .features-cards{
   text-align: center;
-  margin: 0 20px;
 }
 
 .sub-feature{
-  margin: 24px 40px;
+  margin: 10px 10px;
   width: 18rem;
   border-radius: 10%;
   border-width: 10px;
@@ -125,7 +124,6 @@ h3{
 .Review-card{
   border-width: 10px;
   border-color: #a4ebf3;
-  display: inline-block;
 }
 
 .card-header{
@@ -139,8 +137,19 @@ h3{
 }
 
 .customer-img{
-  display: inline;
-  margin-left: 20px;
+  width: 30%;
+}
+
+.design1{
+  width: 30%;
+  margin-right: 0.75rem;
+}
+
+.design2{
+  width: 30%;
+  margin-left: 0.75rem;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 /* Downloads */
