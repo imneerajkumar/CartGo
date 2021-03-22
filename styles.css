@@ -63,6 +63,12 @@ h3{
   padding: 5% 5%;
 }
 
+@media(max-width: 980px) {
+  #Features .container-fluid{
+    padding: 5% 15%;
+  }
+}
+
 .features-cards{
   text-align: center;
 }
